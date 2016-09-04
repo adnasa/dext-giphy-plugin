@@ -4,6 +4,9 @@ const request = require('request')
 
 const isDev = process.env.NODE_ENV === 'development'
 const BASE_URL = 'http://api.giphy.com/v1/gifs/search'
+
+// The public BETA KEY!!
+// @see https://github.com/Giphy/GiphyAPI
 const API_KEY = 'dc6zaTOxFJmzC'
 
 module.exports = {
