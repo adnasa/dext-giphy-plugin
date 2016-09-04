@@ -1,30 +1,30 @@
 {
-	"name": "dext-giphy-plugin",
-	"version": "0.0.2",
-	"description": "Giphy plugin for dext, a smart launcher powered by Javascript",
-	"main": "index.js",
-	"dependencies": {
-		"babel-cli": "^6.6.5",
-		"babel-core": "^6.7.2",
-		"babel-eslint": "^5.0.0",
-		"babel-plugin-add-module-exports": "^0.1.2",
-		"babel-plugin-transform-class-properties": "^6.9.0",
-		"babel-plugin-transform-object-assign": "^6.5.0",
-		"babel-preset-es2015": "^6.6.0",
-		"babel-preset-stage-0": "^6.5.0",
-		"request": "^2.74.0"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"lint": "$(npm bin)/eslint index.js"
-	},
-	"keywords": [
-		"dext",
-		"dext-plugin",
-		"plugin",
-		"giphy",
-		"repository"
-	],
-	"author": "Adnan Asani",
-	"license": ""
+  "name": "dext-giphy-plugin",
+  "version": "0.0.3",
+  "description": "Giphy plugin for dext, a smart launcher powered by Javascript",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.2",
+    "babel-eslint": "^5.0.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-transform-class-properties": "^6.9.0",
+    "babel-plugin-transform-object-assign": "^6.5.0",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "$(npm bin)/eslint index.js"
+  },
+  "keywords": [
+    "dext",
+    "dext-plugin",
+    "plugin",
+    "giphy",
+    "repository"
+  ],
+  "author": "Adnan Asani",
+  "license": ""
 }
