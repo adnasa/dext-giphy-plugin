@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "modules": true,
+    "blockBindings": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "no-cond-assign": ["error", "always"],
+    "no-console": ["error", { "allow": ["info", "warn"] }],
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "max-len": ["error", 80],
+    "object-curly-spacing": ["error", "always"],
+    "spaced-comment": ["error", "always", {
+      "exceptions": ["-", "+", "*"]
+    }],
+    "no-inline-comments": ["error"],
+    "comma-spacing": ["error", {
+      "before": false,
+      "after": true
+    }],
+    "space-before-function-paren": ["error", "always"]
+  }
+}
