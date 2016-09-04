@@ -1,10 +1,14 @@
-module.exports = function media (
-  { id, slug, images: { fixed_height_small_still: img } }
-) {
+module.exports = function media ({
+  id, slug,
+  images: {
+    fixed_height_small_still: smallImg,
+    original,
+  },
+}) {
   return {
     titie: id,
     subtitle: slug,
-    arg: img.url,
-    icon: { path: img.url },
+    arg: original.url,
+    icon: { path: smallImg.url },
   }
 }
