@@ -20,8 +20,10 @@
 	},
 	"keywords": [
 		"dext",
+		"dext-plugin"
 		"plugin",
-		"giphy"
+		"giphy",
+		"repository"
 	],
 	"author": "Adnan Asani",
 	"license": ""
