@@ -1,6 +1,6 @@
 {
   "name": "dext-giphy-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Giphy plugin for dext, a smart launcher powered by Javascript",
   "main": "index.js",
   "dependencies": {
