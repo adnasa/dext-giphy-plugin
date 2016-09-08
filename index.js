@@ -45,4 +45,17 @@ module.exports = {
         resolve({ items: mediaItems })
       })
   }),
+
+  details: {
+    type: 'html',
+    render,
+  },
+}
+
+function render ({
+  context: {
+    images: { downsized_medium: { url } },
+  },
+}) {
+  return `<img src="${url}" />`
 }
