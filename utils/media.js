@@ -8,8 +8,8 @@ module.exports = function media (giphy) {
   } = giphy
 
   return {
-    titie: id,
-    subtitle: slug,
+    title: id,
+    subtitle: url,
     arg: url,
     icon: { path: smallImg.url },
     context: giphy,

@@ -36,11 +36,11 @@ module.exports = {
           return
         }
 
-        const body = JSON.parse(responseObj.body)
-        const mediaItems = body.data.map(media)
-
         if (isDev)
           console.info('GIPHY: Request has been successful')
+
+        const body = JSON.parse(responseObj.body)
+        const mediaItems = body.data.map(media)
 
         resolve({ items: mediaItems })
       })
