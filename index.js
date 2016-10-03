@@ -17,7 +17,7 @@ module.exports = {
     title: 'giphy',
     subtitle: 'Your wish is my command! start your wish with "giphy"',
   },
-  execute: q => new Promise(resolve => {
+  query: q => new Promise(resolve => {
     const items = []
     const headers = { 'Content-Type': 'application/json' }
     if (!q) {
