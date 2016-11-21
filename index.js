@@ -12,7 +12,7 @@ const API_KEY = 'dc6zaTOxFJmzC'
 module.exports = {
   keyword: 'giphy',
   // @TODO: Allow copy to clipboard on ENTER
-  action: 'openurl',
+  action: 'copy',
   helper: {
     title: 'giphy',
     subtitle: 'Your wish is my command! start your wish with "giphy"',
